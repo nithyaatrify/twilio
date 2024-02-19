@@ -39,6 +39,4 @@ def index():
     """
 
 if __name__ == '__main__':
-    # For deployment, you would typically use a production-ready server like Gunicorn.
-    # Example command to run with Gunicorn: gunicorn -b 0.0.0.0:80 your_app_module:app
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=5000)
